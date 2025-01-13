@@ -1,32 +1,31 @@
-cbmSD-mini - SD Card Drive for Commodore Computers with IEEE
-============================================================
+cbmSD family of SD Card Drives for Commodore Computers with IEEE
+================================================================
 
-The goal of this project is to create a free open-source
-disk drive solution that is easy to build using all
-thru-hole parts plus the use of a common inexpensive SD
-card module.
+The goal of this project is to create free open-source disk drive
+solutions that are easy to build using all thru-hole parts plus
+the use of a common inexpensive SD card module.
 
-This device is based on the petSD+ v2.4 from Nils Eilers.
-I have removed all the non-essential features and have
-designed it to plug directly into the back of the computer.
-No IEEE cables are required. However, it also has a
-pass-thru to add additional drives if you need.
+There are several variations depending on your usage:
+
+1) cbmSD  (In development)
+           A full solution providing both IEEE and IEC ports.
+           For use on PET/CBM and most Commodore 8-bit machines.
+           Direct-plug for IEEE but can connect to IEC devices
+           with standard IEC cable.
+
+2) cbmSD-mini
+           Direct-plug solutions for PET/CBM machines with IEEE.
+           With IEEE pass-thru.
+
+3) cbmSD-xd
+           Proprietary cable solution for PET/CBM machines.
+           Pass-thru board connects to back of computer, with
+           ribbon cable to SD card board.
+           No expensive IEEE cable required.
+
 
 You will need a simple cassette port power plug or you can
 power it with a standard 5V adapter with barrel jack.
-
-
-Features
---------
-
-- Direct plug into IEEE port
-- Pass-thru IEEE port
-- Power, Busy and Error lights
-- SD module can be mounted on header or extended via wires.
-- Reset switch.
-- Two Power headers for input or output (to additional
-  cbmSD-mini units).
-- Mounting holes for future 3D case.
 
 
 Project Page
@@ -35,19 +34,16 @@ Project Page
 http://www.cbmsteve.ca/cbmsd/index.html
 
 
-
 Status
 ------
 
- cbmSD      1.0:  Was the first version for prototyping. It supported IEEE and IEC
-                  like the PETSD+. 
- cbmSD-mini 1.1:  Removed IEC port and AUX header. IEEE only for PET/CBM users.
-                  Gerbers sent to JLCPCB on 2021-05-14.
- cbmSD-mini 1.2:  Fix trace short on LED. Remove 74125 which is not reqired
-                  for IEEE. Update design for Kicad7.
-                  Gerbers sent to JLCPCB on 2024-02-21.
- cmmSD-mini 1.2v  Add vertical mounting option.
-                  Gerbers sent to JLCPCB on 2024-07-30.
+DEVICE     VER   DATE       STATUS
+
+cbmSD      -     -          In development. Requires firmware changes
+cbmSD-mini 1.2   2024-02-21 Working
+cbmSD-mini 1.2v  2024-07-30 Working. Vertical mounting option.
+cbmSD-xd   1.0   2024-11-18 Working. Requires cbmSD-pass board.
+cbmSD-pass 1.0   2024-11-18 Working. 2 versions: Centronics IEEE or PET-Edge.
 
 Steve
-2024-11-11
+2025-01-13
