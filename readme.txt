@@ -19,10 +19,8 @@ There are several variations depending on your usage:
 
 3) cbmSD-xd
            Proprietary cable solution for PET/CBM machines.
-           Pass-thru board connects to back of computer, with
-           ribbon cable to SD card board.
+           Several Pass-thru boards connect to back of computer, with ribbon cable to SD card board.
            No expensive IEEE cable required.
-
 
 You will need a simple cassette port power plug or you can
 power it with a standard 5V adapter with barrel jack.
@@ -43,7 +41,9 @@ cbmSD      -     -          In development. Requires firmware changes
 cbmSD-mini 1.2   2024-02-21 Working
 cbmSD-mini 1.2v  2024-07-30 Working. Vertical mounting option.
 cbmSD-xd   1.0   2024-11-18 Working. Requires cbmSD-pass board.
-cbmSD-pass 1.0   2024-11-18 Working. 2 versions: Centronics IEEE or PET-Edge.
+pass-e2e   1.0   2024-11-18 Working. Edge-2-Edge
+pass-e2c   1.0   1014-11-22 Working. Edge-2-Centronics female
+pass-c2e   1.0   2025-12-01 Untested. Centronics-2-Edge
 
 Steve
-2025-01-13
+2025-12-14

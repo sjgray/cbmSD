@@ -14,13 +14,11 @@ consolidated and 5V pins have been added.
 You will need a simple cassette port power plug or you can
 power it with a standard 5V adapter with barrel jack.
 
-There are two versions of the board:
+There are three versions available:
 
-1) With IEEE PET-Edge connector (like on most PET/CBM).
-   Horizontal or Vertical mount options.
-
-2) With IEEE (Centronics 24-pin) connector as used on devices.
-
+1) "E2E" - Edge-2-Edge. Edge connector output. Horizontal or Vertical mount options.
+2) "E2C" - Edge-2-Centronics. Centronics female connector as used on devices.
+3) "C2E" - Centronics-2-Edge. For SK machines.
 
 Features
 --------
@@ -34,7 +32,9 @@ Features
 Status
 ------
 
- V1.0: First release. Verified working as intended.
+2024-11-10 E2E V1.0 - Verified working as intended.
+2024-11-22 E2C V1.0 - Verified working as intended.
+2025-12-01 C2E V1.0 - Untested.
 
 Steve
-2025-01-13
+2025-12-14
